@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Bungee;
+    src: url(Assets/Bungee-Regular.ttf);
+  }
+  body{
+    font-family: 'Bungee';
+}
+#logo{
+    display: flex; 
+    justify-content: flex-start;  
+    float:left;
+    padding-bottom: 10px;
+}
+.nav{
+   display: flex; 
+   justify-content: flex-end;
+}
+.links{
+    margin: 25px;
+    color: #7944e6;
+    display: inline;
+}
+a:link {
+    text-decoration: none;
+  }
+a:hover{
+    color:#10fdff;
+}
+#about{
+    text-align: center;
+    background-color: #ff00ff;
+    margin-top: 25px;
+    margin-right: 30px;
+    margin-left: 30px;
+    line-height: 20pt;
+    }
+#truck{
+    margin-bottom: -80px;
+    height: 300px;
+    width: 300px; 
+}
+h1{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: -15px;
+}
+#text{
+    text-align: left;
+   font-size: 110%;
+    margin: 20px;
+   padding-bottom: 20px; 
+}
+.menuText{
+    text-align: center;
+    font-size: 20pt;
+    margin:0;
+}
+.menuBottom{
+    color: #7944e6;
+}
+.menu{
+    border-style: solid;
+    border-color: #7944e6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 500px;   
+}
+.menuImg{
+    margin: auto;
+    width: 250px;
+    height: 500px;    
+}
+@media screen and (min-width: 768px) {
+#about{
+    display: flex;
+    flex-direction: row;
+}
+}
