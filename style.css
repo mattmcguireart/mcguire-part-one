@@ -2,7 +2,7 @@
     font-family: Bungee;
     src: url(Assets/Bungee-Regular.ttf);
   }
-  body{
+body{
     font-family: 'Bungee';
     Display: flex;
     flex-direction: column;
@@ -22,9 +22,10 @@
     color: #7944e6;
     display: inline;
 }
-a:link {
+a:link, a:visited {
     text-decoration: none;
-  }
+    color: #7944e6;
+} 
 a:hover{
     color:#10fdff;
 }
@@ -82,7 +83,7 @@ h1{
     width: 250px;
     height: 500px;    
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){     
 #about{
     display: flex;
     flex-direction: row;
@@ -100,5 +101,9 @@ h1{
 .info{
     margin-top: 100px;
     margin-bottom: 20px;
+}
+#menuItem{
+display: flex;
+flex-direction: row;
 }
 }
